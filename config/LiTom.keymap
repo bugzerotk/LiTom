@@ -66,7 +66,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD_LANG2_ALT_WIN";
             #binding-cells = <0>;
-            bindings = <&mt LEFT_ALT LANGUAGE_1>, <&kp LEFT_GUI>;
+            bindings = <&mt LEFT_ALT LANGUAGE_2>, <&kp LEFT_GUI>;
         };
 
         tl_tp: tl_tp {
