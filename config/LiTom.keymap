@@ -13,7 +13,7 @@
     temp-layer-enabled;
     temp-layer = <1>;
     temp-layer-activation-delay-ms = <0>;
-    temp-layer-deactivation-delay-ms = <400>;
+    temp-layer-deactivation-delay-ms = <500>;
 };
 
 #undef ZMK_POINTING_DEFAULT_SCRL_VAL
@@ -35,12 +35,21 @@
             tap-ms = <20>;
         };
 
-        tab_slide: behavior_sensor_rotate_tab_slide {
+        tab_slide_mac: behavior_sensor_rotate_tab_slide {
             compatible = "zmk,behavior-runtime-sensor-rotate";
             label = "ENCODER_TAB_SLIDE";
             #sensor-binding-cells = <0>;
             cw-binding = <&kp LA(LG(RIGHT_ARROW))>;
             ccw-binding = <&kp LA(LG(LEFT_ARROW))>;
+            tap-ms = <20>;
+        };
+
+        tab_slide: behavior_sensor_rotate_tab_slide {
+            compatible = "zmk,behavior-runtime-sensor-rotate";
+            label = "ENCODER_TAB_SLIDE";
+            #sensor-binding-cells = <0>;
+            cw-binding = <&kp LC(TAB)>;
+            ccw-binding = <&kp LC(TAB)>;
             tap-ms = <20>;
         };
 
