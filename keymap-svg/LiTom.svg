@@ -287,17 +287,18 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
 <text class="tap" x="42" y="42">TRANS</text>
 </g>
-<g class="key keypos-10 transparent" transform="translate(786 148) rotate(0 -756 -84)">
+<g class="key keypos-10 " transform="translate(786 148) rotate(0 -756 -84)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">TRANS</text>
+<text class="tap" x="42" y="36">MB3</text>
+<text class="hold" x="42" y="53">MOUSE</text>
 </g>
-<g class="key keypos-11 transparent" transform="translate(870 148) rotate(0 -840 -84)">
+<g class="key keypos-11 " transform="translate(870 148) rotate(0 -840 -84)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">TRANS</text>
+<text class="tap" x="42" y="42">C_AC_BACK</text>
 </g>
-<g class="key keypos-12 transparent" transform="translate(954 148) rotate(0 -924 -84)">
+<g class="key keypos-12 " transform="translate(954 148) rotate(0 -924 -84)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">TRANS</text>
+<text class="tap" x="42" y="42">C_AC_FORWARD</text>
 </g>
 <g class="key keypos-13 transparent" transform="translate(1038 148) rotate(0 -1008 -84)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
