@@ -51,7 +51,7 @@
 
             #binding-cells = <2>;
             flavor = "balanced";
-            tapping-term-ms = <150>;
+            tapping-term-ms = <180>;
             quick-tap-ms = <300>;
         };
 
@@ -121,9 +121,9 @@
         MOUSE {
             bindings = <
 &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &mo 5   &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB3  &kp C_AC_BACK  &kp C_AC_FORWARD  &trans
+&trans  &mo 5   &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB2       &mkp MB3          &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans         &trans            &trans
 &trans  &trans  &trans  &mo 3   &trans  &trans  &trans  &mo 3   &trans    &trans
             >;
 
