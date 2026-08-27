@@ -35,9 +35,9 @@
             tap-ms = <20>;
         };
 
-        tab_slide_mac: behavior_sensor_rotate_tab_slide {
+        tab_slide_mac: behavior_sensor_rotate_tab_slide_mac {
             compatible = "zmk,behavior-runtime-sensor-rotate";
-            label = "ENCODER_TAB_SLIDE";
+            label = "ENCODER_TAB_SLIDE_MAC";
             #sensor-binding-cells = <0>;
             cw-binding = <&kp LA(LG(RIGHT_ARROW))>;
             ccw-binding = <&kp LA(LG(LEFT_ARROW))>;
@@ -49,7 +49,7 @@
             label = "ENCODER_TAB_SLIDE";
             #sensor-binding-cells = <0>;
             cw-binding = <&kp LC(TAB)>;
-            ccw-binding = <&kp LC(TAB)>;
+            ccw-binding = <&kp LC(LS(TAB))>;
             tap-ms = <20>;
         };
 
