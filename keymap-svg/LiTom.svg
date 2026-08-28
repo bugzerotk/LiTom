@@ -86,7 +86,7 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <g class="key keypos-14 " transform="translate(30 232) rotate(0 0 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
 <text class="tap" x="42" y="36">4 A</text>
-<text class="hold" x="42" y="53">tl_tp</text>
+<text class="hold" x="42" y="53">lt_tp</text>
 </g>
 <g class="key keypos-15 " transform="translate(114 232) rotate(0 -84 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
