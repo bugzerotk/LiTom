@@ -162,10 +162,10 @@
         FUNCTION {
             bindings = <
 &trans           &trans
-&kp EXCLAMATION  &kp AT_SIGN  &kp HASH   &kp DOLLAR  &kp PERCENT     &trans  &trans  &lt_bl 6 CARET  &kp AMPERSAND      &kp ASTERISK            &kp LEFT_PARENTHESIS        &kp RIGHT_PARENTHESIS
-&none            &none        &kp GRAVE  &kp PLUS    &kp MINUS       &trans  &trans  &kp SEMICOLON   &kp SINGLE_QUOTE   &kp BACKSLASH           &kp PIPE                    &kp SLASH
-&none            &none        &kp TILDE  &kp EQUAL   &kp UNDERSCORE  &trans  &trans  &kp COLON       &kp DOUBLE_QUOTES  &mt LEFT_GUI LESS_THAN  &mt RIGHT_ALT GREATER_THAN  &kp QUESTION
-&trans           &trans       &trans     &trans      &trans          &trans  &trans  &trans          &trans             &trans
+&kp EXCLAMATION  &kp AT_SIGN  &kp HASH   &kp DOLLAR  &kp PERCENT     &trans  &trans  &kp CARET      &kp AMPERSAND      &kp ASTERISK            &kp LEFT_PARENTHESIS        &kp RIGHT_PARENTHESIS
+&none            &none        &kp GRAVE  &kp PLUS    &kp MINUS       &trans  &trans  &kp SEMICOLON  &kp SINGLE_QUOTE   &kp BACKSLASH           &kp PIPE                    &kp SLASH
+&none            &none        &kp TILDE  &kp EQUAL   &kp UNDERSCORE  &trans  &trans  &kp COLON      &kp DOUBLE_QUOTES  &mt LEFT_GUI LESS_THAN  &mt RIGHT_ALT GREATER_THAN  &kp QUESTION
+&trans           &trans       &trans     &trans      &trans          &trans  &trans  &trans         &trans             &trans
             >;
 
             sensor-bindings = <
@@ -194,7 +194,7 @@
         ARROW {
             bindings = <
 &trans      &trans
-&kp ESCAPE  &kp LS(INS)  &kp UP_ARROW    &kp PAGE_UP      &kp HOME          &oled_mode  &oled_mode  &kp INS         &kp SCROLLLOCK  &kp CAPSLOCK           &kp PRINTSCREEN    &kp RS(INS)
+&kp ESCAPE  &kp LS(INS)  &kp UP_ARROW    &kp PAGE_UP      &kp HOME          &oled_mode  &oled_mode  &lt_bl 6 INS    &kp SCROLLLOCK  &kp CAPSLOCK           &kp PRINTSCREEN    &kp RS(INS)
 &kp LCTRL   &kp RCTRL    &kp LEFT        &kp RIGHT_ARROW  &kp TAB           &trans      &trans      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW           &kp RIGHT_ARROW    &kp RCTRL
 &kp LSHIFT  &kp INS      &kp DOWN_ARROW  &kp PAGE_DOWN    &kp END           &trans      &trans      &kp HOME        &kp PAGE_DOWN   &mt RIGHT_GUI PAGE_UP  &mt RIGHT_ALT END  &kp RIGHT_SHIFT
 &trans      &trans       &trans          &kp LEFT_SHIFT   &mt LCTRL DELETE  &trans      &trans      &trans          &trans          &trans
