@@ -131,7 +131,7 @@
             bindings = <
 &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans
             >;
@@ -147,7 +147,7 @@
             bindings = <
 &trans          &trans
 &kp ESCAPE      &kp F2  &kp F3  &kp F4  &kp F5  &trans  &trans  &kp ESCAPE  &mkp MB3  &kp C_AC_BACK  &kp C_AC_FORWARD  &trans
-&trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans      &mkp MB1  &mkp MB2       &mkp MB3          &trans
+&trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans      &mkp MB1  &mkp MB3       &mkp MB2          &trans
 &kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans    &trans         &trans            &kp RSHIFT
 &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans    &trans
             >;
