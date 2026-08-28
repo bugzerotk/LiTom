@@ -344,12 +344,12 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-23 " transform="translate(870 232) rotate(0 -840 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="36">MB2</text>
+<text class="tap" x="42" y="36">MB3</text>
 <text class="hold" x="42" y="53">MOUSE</text>
 </g>
 <g class="key keypos-24 " transform="translate(954 232) rotate(0 -924 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="36">MB3</text>
+<text class="tap" x="42" y="36">MB2</text>
 <text class="hold" x="42" y="53">MOUSE</text>
 </g>
 <g class="key keypos-25 transparent" transform="translate(1038 232) rotate(0 -1008 -168)">
@@ -558,12 +558,12 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-23 " transform="translate(870 232) rotate(0 -840 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="36">MB2</text>
+<text class="tap" x="42" y="36">MB3</text>
 <text class="hold" x="42" y="53">MOUSE</text>
 </g>
 <g class="key keypos-24 " transform="translate(954 232) rotate(0 -924 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="36">MB3</text>
+<text class="tap" x="42" y="36">MB2</text>
 <text class="hold" x="42" y="53">MOUSE</text>
 </g>
 <g class="key keypos-25 transparent" transform="translate(1038 232) rotate(0 -1008 -168)">
