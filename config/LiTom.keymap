@@ -130,9 +130,9 @@
         MOUSE {
             bindings = <
 &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB3  &kp C_AC_BACK  &kp C_AC_FORWARD  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB2       &mkp MB3          &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans         &trans            &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans
             >;
 
@@ -180,7 +180,7 @@
 &trans                   &trans
 &kp SLASH                &kp NUMBER_7              &kp NUMBER_8              &kp NUMBER_9  &kp MINUS        &trans  &trans  &kp F10  &kp F7  &kp F8            &kp F9            &kp KP_NUMLOCK
 &kp ASTERISK             &kp NUMBER_4              &kp NUMBER_5              &kp NUMBER_6  &kp PLUS         &trans  &trans  &kp F11  &kp F4  &kp F5            &kp F6            &none
-&mt LEFT_SHIFT NUMBER_0  &kp NUMBER_1              &kp NUMBER_2              &kp NUMBER_3  &kp ENTER        &trans  &trans  &kp F12  &kp F1  &mt F2 RIGHT_GUI  &mt F3 RIGHT_ALT  &kp RIGHT_SHIFT
+&mt LEFT_SHIFT NUMBER_0  &kp NUMBER_1              &kp NUMBER_2              &kp NUMBER_3  &kp ENTER        &trans  &trans  &kp F12  &kp F1  &mt RIGHT_GUI F2  &mt RIGHT_ALT F3  &kp RIGHT_SHIFT
 &trans                   &mt_bl LEFT_GUI NUMBER_0  &mt_bl LEFT_ALT NUMBER_0  &kp PERIOD    &mt RCTRL ENTER  &trans  &trans  &trans   &trans  &trans
             >;
 
