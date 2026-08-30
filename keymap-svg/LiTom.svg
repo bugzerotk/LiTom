@@ -223,8 +223,7 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-46 " transform="translate(954 400) rotate(0 -924 -336)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="36">LANG1</text>
-<text class="hold" x="42" y="53">LT 2</text>
+<text class="tap" x="42" y="42">MO 2</text>
 </g>
 <g class="key keypos-47 " transform="translate(1038 400) rotate(0 -1008 -336)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
@@ -736,9 +735,9 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
 <text class="tap" x="42" y="42">NONE</text>
 </g>
-<g class="key keypos-15 none" transform="translate(114 232) rotate(0 -84 -168)">
+<g class="key keypos-15 " transform="translate(114 232) rotate(0 -84 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">NONE</text>
+<text class="tap" x="42" y="42">LANGUAGE_5</text>
 </g>
 <g class="key keypos-16 " transform="translate(198 232) rotate(0 -168 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
@@ -784,9 +783,9 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
 <text class="tap" x="42" y="42">NONE</text>
 </g>
-<g class="key keypos-27 none" transform="translate(114 316) rotate(0 -84 -252)">
+<g class="key keypos-27 " transform="translate(114 316) rotate(0 -84 -252)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">NONE</text>
+<text class="tap" x="42" y="42">RA(GRAVE)</text>
 </g>
 <g class="key keypos-28 " transform="translate(198 316) rotate(0 -168 -252)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
