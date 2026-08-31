@@ -9,12 +9,12 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
-&mouse_runtime_input_processor {
-    temp-layer-enabled;
-    temp-layer = <1>;
-    temp-layer-activation-delay-ms = <0>;
-    temp-layer-deactivation-delay-ms = <500>;
-};
+// &mouse_runtime_input_processor {
+//     temp-layer-enabled;
+//     temp-layer = <1>;
+//     temp-layer-activation-delay-ms = <0>;
+//     temp-layer-deactivation-delay-ms = <500>;
+// };
 
 #undef ZMK_POINTING_DEFAULT_SCRL_VAL
 
