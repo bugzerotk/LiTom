@@ -223,12 +223,13 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-46 " transform="translate(954 400) rotate(0 -924 -336)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">MO 2</text>
+<text class="tap" x="42" y="36">MB1</text>
+<text class="hold" x="42" y="53">MOUSE</text>
 </g>
 <g class="key keypos-47 " transform="translate(1038 400) rotate(0 -1008 -336)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="36">ESC</text>
-<text class="hold" x="42" y="53">LT 5</text>
+<text class="tap" x="42" y="36">MB2</text>
+<text class="hold" x="42" y="53">MOUSE</text>
 </g>
 <g class="combo combo-bracket">
 <polyline points="828,274 912,274"/>
