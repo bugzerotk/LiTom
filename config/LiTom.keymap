@@ -20,9 +20,15 @@
 
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 80
 
-&lt { quick-tap-ms = <300>; };
+&lt {
+    quick-tap-ms = <200>;
+    tapping-term-ms = <180>;
+};
 
-&mt { quick-tap-ms = <300>; };
+&mt {
+    quick-tap-ms = <200>;
+    tapping-term-ms = <180>;
+};
 
 / {
     behaviors {
@@ -100,6 +106,8 @@
             label = "TD_LANG2_ALT_WIN";
             #binding-cells = <0>;
             bindings = <&mt LEFT_ALT LANGUAGE_2>, <&mt LEFT_GUI LANGUAGE_1>;
+
+            tapping-term-ms = <180>;
         };
     };
 
