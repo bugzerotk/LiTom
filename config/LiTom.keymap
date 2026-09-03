@@ -124,19 +124,9 @@
             key-positions = <24 23>;
         };
 
-        mouse-mb1 {
-            bindings = <&mkp MB1>;
-            key-positions = <22 24>;
-        };
-
-        mouse-mb2 {
-            bindings = <&mkp MB2>;
-            key-positions = <22 11>;
-        };
-
         moue-mb3 {
             bindings = <&mkp MB3>;
-            key-positions = <22 12>;
+            key-positions = <46 47>;
         };
     };
 
