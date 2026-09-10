@@ -227,13 +227,12 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 </g>
 <g class="key keypos-46 " transform="translate(954 400) rotate(0 -924 -336)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="36">MB1</text>
-<text class="hold" x="42" y="53">MOUSE</text>
+<text class="tap" x="42" y="36">ESC</text>
+<text class="hold" x="42" y="53">LT 5</text>
 </g>
 <g class="key keypos-47 " transform="translate(1038 400) rotate(0 -1008 -336)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="36">MB2</text>
-<text class="hold" x="42" y="53">MOUSE</text>
+<text class="tap" x="42" y="42">MO 2</text>
 </g>
 <g class="combo combo-bracket">
 <polyline points="828,274 912,274"/>
@@ -248,13 +247,6 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <circle class="combo-dot" cx="912" cy="274" r="3.2"/>
 <rect class="combo-label-bg" x="906.7" y="253" width="94.6" height="16" rx="8" ry="8"/>
 <text class="combo-label" x="954" y="261">RIGHT_BRACKET</text>
-</g>
-<g class="combo combo-mb3">
-<polyline points="996,442 1080,442"/>
-<circle class="combo-dot" cx="996" cy="442" r="3.2"/>
-<circle class="combo-dot" cx="1080" cy="442" r="3.2"/>
-<rect class="combo-label-bg" x="1003.1" y="421" width="69.8" height="16" rx="8" ry="8"/>
-<text class="combo-label" x="1038" y="429">MOUSE MB3</text>
 </g>
 </g>
 <g class="layer layer-MOUSE" transform="translate(0 556)">
@@ -469,13 +461,6 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect class="combo-label-bg" x="906.7" y="253" width="94.6" height="16" rx="8" ry="8"/>
 <text class="combo-label" x="954" y="261">RIGHT_BRACKET</text>
 </g>
-<g class="combo combo-mb3">
-<polyline points="996,442 1080,442"/>
-<circle class="combo-dot" cx="996" cy="442" r="3.2"/>
-<circle class="combo-dot" cx="1080" cy="442" r="3.2"/>
-<rect class="combo-label-bg" x="1003.1" y="421" width="69.8" height="16" rx="8" ry="8"/>
-<text class="combo-label" x="1038" y="429">MOUSE MB3</text>
-</g>
 </g>
 <g class="layer layer-SCROLL" transform="translate(0 1112)">
 <text class="title" x="30" y="10">SCROLL</text>
@@ -686,13 +671,6 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <circle class="combo-dot" cx="912" cy="274" r="3.2"/>
 <rect class="combo-label-bg" x="906.7" y="253" width="94.6" height="16" rx="8" ry="8"/>
 <text class="combo-label" x="954" y="261">RIGHT_BRACKET</text>
-</g>
-<g class="combo combo-mb3">
-<polyline points="996,442 1080,442"/>
-<circle class="combo-dot" cx="996" cy="442" r="3.2"/>
-<circle class="combo-dot" cx="1080" cy="442" r="3.2"/>
-<rect class="combo-label-bg" x="1003.1" y="421" width="69.8" height="16" rx="8" ry="8"/>
-<text class="combo-label" x="1038" y="429">MOUSE MB3</text>
 </g>
 </g>
 <g class="layer layer-FUNCTION" transform="translate(0 1668)">
@@ -905,13 +883,6 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <circle class="combo-dot" cx="912" cy="274" r="3.2"/>
 <rect class="combo-label-bg" x="906.7" y="253" width="94.6" height="16" rx="8" ry="8"/>
 <text class="combo-label" x="954" y="261">RIGHT_BRACKET</text>
-</g>
-<g class="combo combo-mb3">
-<polyline points="996,442 1080,442"/>
-<circle class="combo-dot" cx="996" cy="442" r="3.2"/>
-<circle class="combo-dot" cx="1080" cy="442" r="3.2"/>
-<rect class="combo-label-bg" x="1003.1" y="421" width="69.8" height="16" rx="8" ry="8"/>
-<text class="combo-label" x="1038" y="429">MOUSE MB3</text>
 </g>
 </g>
 <g class="layer layer-NUM" transform="translate(0 2224)">
@@ -1129,13 +1100,6 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect class="combo-label-bg" x="906.7" y="253" width="94.6" height="16" rx="8" ry="8"/>
 <text class="combo-label" x="954" y="261">RIGHT_BRACKET</text>
 </g>
-<g class="combo combo-mb3">
-<polyline points="996,442 1080,442"/>
-<circle class="combo-dot" cx="996" cy="442" r="3.2"/>
-<circle class="combo-dot" cx="1080" cy="442" r="3.2"/>
-<rect class="combo-label-bg" x="1003.1" y="421" width="69.8" height="16" rx="8" ry="8"/>
-<text class="combo-label" x="1038" y="429">MOUSE MB3</text>
-</g>
 </g>
 <g class="layer layer-ARROW" transform="translate(0 2780)">
 <text class="title" x="30" y="10">ARROW</text>
@@ -1349,13 +1313,6 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <circle class="combo-dot" cx="912" cy="274" r="3.2"/>
 <rect class="combo-label-bg" x="906.7" y="253" width="94.6" height="16" rx="8" ry="8"/>
 <text class="combo-label" x="954" y="261">RIGHT_BRACKET</text>
-</g>
-<g class="combo combo-mb3">
-<polyline points="996,442 1080,442"/>
-<circle class="combo-dot" cx="996" cy="442" r="3.2"/>
-<circle class="combo-dot" cx="1080" cy="442" r="3.2"/>
-<rect class="combo-label-bg" x="1003.1" y="421" width="69.8" height="16" rx="8" ry="8"/>
-<text class="combo-label" x="1038" y="429">MOUSE MB3</text>
 </g>
 </g>
 <g class="layer layer-BT" transform="translate(0 3336)">
@@ -1576,13 +1533,6 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <circle class="combo-dot" cx="912" cy="274" r="3.2"/>
 <rect class="combo-label-bg" x="906.7" y="253" width="94.6" height="16" rx="8" ry="8"/>
 <text class="combo-label" x="954" y="261">RIGHT_BRACKET</text>
-</g>
-<g class="combo combo-mb3">
-<polyline points="996,442 1080,442"/>
-<circle class="combo-dot" cx="996" cy="442" r="3.2"/>
-<circle class="combo-dot" cx="1080" cy="442" r="3.2"/>
-<rect class="combo-label-bg" x="1003.1" y="421" width="69.8" height="16" rx="8" ry="8"/>
-<text class="combo-label" x="1038" y="429">MOUSE MB3</text>
 </g>
 </g>
 </svg>
