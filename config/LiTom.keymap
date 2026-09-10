@@ -116,12 +116,12 @@
 
         open-square-bracket {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <22 23>;
+            key-positions = <22 21>;
         };
 
         close-square-bracket {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <24 23>;
+            key-positions = <23 22>;
         };
     };
 
