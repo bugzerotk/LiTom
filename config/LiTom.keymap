@@ -179,10 +179,10 @@
         FUNCTION {
             bindings = <
 &trans           &trans
-&kp EXCLAMATION  &kp AT_SIGN     &kp HASH   &kp DOLLAR  &kp PERCENT     &trans  &kp CARET      &kp AMPERSAND      &kp ASTERISK            &kp LEFT_PARENTHESIS        &kp RIGHT_PARENTHESIS  &trans
-&none            &kp LANGUAGE_5  &kp GRAVE  &kp PLUS    &kp MINUS       &trans  &kp SEMICOLON  &kp SINGLE_QUOTE   &kp BACKSLASH           &kp PIPE                    &kp SLASH              &trans
-&none            &kp RA(GRAVE)   &kp TILDE  &kp EQUAL   &kp UNDERSCORE  &trans  &kp COLON      &kp DOUBLE_QUOTES  &mt LEFT_GUI LESS_THAN  &mt RIGHT_ALT GREATER_THAN  &kp QUESTION           &trans
-&trans           &trans          &trans     &trans      &trans          &trans  &trans         &trans             &trans                  &trans
+&kp EXCLAMATION  &kp AT_SIGN     &kp HASH   &kp DOLLAR  &kp PERCENT       &trans  &kp CARET      &kp AMPERSAND      &kp ASTERISK            &kp LEFT_PARENTHESIS        &kp RIGHT_PARENTHESIS  &trans
+&none            &kp LANGUAGE_5  &kp GRAVE  &kp PLUS    &kp MINUS         &trans  &kp SEMICOLON  &kp SINGLE_QUOTE   &kp BACKSLASH           &kp PIPE                    &kp SLASH              &trans
+&none            &kp RA(GRAVE)   &kp TILDE  &kp EQUAL   &kp UNDERSCORE    &trans  &kp COLON      &kp DOUBLE_QUOTES  &mt LEFT_GUI LESS_THAN  &mt RIGHT_ALT GREATER_THAN  &kp QUESTION           &trans
+&trans           &trans          &trans     &trans      &mt LCTRL DELETE  &trans  &trans         &trans             &trans                  &trans
             >;
 
             sensor-bindings = <
@@ -195,10 +195,10 @@
         NUM {
             bindings = <
 &trans                &trans
-&kp SLASH             &kp NUMBER_7              &kp NUMBER_8              &kp NUMBER_9  &kp MINUS        &trans  &kp F10  &kp F7  &kp F8            &kp F9            &kp KP_NUMLOCK   &trans
-&kp ASTERISK          &kp NUMBER_4              &kp NUMBER_5              &kp NUMBER_6  &kp PLUS         &trans  &kp F11  &kp F4  &kp F5            &kp F6            &none            &trans
-&mt LEFT_SHIFT EQUAL  &kp NUMBER_1              &kp NUMBER_2              &kp NUMBER_3  &kp ENTER        &trans  &kp F12  &kp F1  &mt RIGHT_GUI F2  &mt RIGHT_ALT F3  &kp RIGHT_SHIFT  &trans
-&trans                &mt_bl LEFT_GUI NUMBER_0  &mt_bl LEFT_ALT NUMBER_0  &kp PERIOD    &mt RCTRL ENTER  &trans  &trans   &trans  &trans            &trans
+&kp SLASH             &kp NUMBER_7              &kp NUMBER_8              &kp NUMBER_9  &kp MINUS         &trans  &kp F10  &kp F7  &kp F8            &kp F9            &kp KP_NUMLOCK   &trans
+&kp ASTERISK          &kp NUMBER_4              &kp NUMBER_5              &kp NUMBER_6  &kp PLUS          &trans  &kp F11  &kp F4  &kp F5            &kp F6            &none            &trans
+&mt LEFT_SHIFT EQUAL  &kp NUMBER_1              &kp NUMBER_2              &kp NUMBER_3  &kp ENTER         &trans  &kp F12  &kp F1  &mt RIGHT_GUI F2  &mt RIGHT_ALT F3  &kp RIGHT_SHIFT  &trans
+&trans                &mt_bl LEFT_GUI NUMBER_0  &mt_bl LEFT_ALT NUMBER_0  &kp PERIOD    &mt RCTRL DELETE  &trans  &trans   &trans  &trans            &trans
             >;
 
             sensor-bindings = <
@@ -214,7 +214,7 @@
 &kp ESCAPE  &kp LS(INS)  &kp UP_ARROW    &kp PAGE_UP      &kp HOME          &oled_mode  &lt_bl 6 INS    &kp SCROLLLOCK  &kp CAPSLOCK           &kp PRINTSCREEN    &kp RS(INS)      &trans
 &kp LCTRL   &kp RCTRL    &kp LEFT        &kp RIGHT_ARROW  &kp TAB           &trans      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW           &kp RIGHT_ARROW    &kp RCTRL        &trans
 &kp LSHIFT  &kp INS      &kp DOWN_ARROW  &kp PAGE_DOWN    &kp END           &trans      &kp HOME        &kp PAGE_DOWN   &mt RIGHT_GUI PAGE_UP  &mt RIGHT_ALT END  &kp RIGHT_SHIFT  &trans
-&trans      &trans       &trans          &kp LEFT_SHIFT   &mt LCTRL DELETE  &trans      &trans          &trans          &trans                 &trans
+&trans      &trans       &trans          &trans           &mt LCTRL DELETE  &trans      &trans          &trans          &trans                 &trans
             >;
 
             sensor-bindings = <
