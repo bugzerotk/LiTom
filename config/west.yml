@@ -8,6 +8,8 @@ manifest:
       url-base: https://github.com/cormoran
     - name: pukuhei
       url-base: https://github.com/pukuhei
+    - name: kot149
+      url-base: https://github.com/kot149
   projects:
     - name: zmk-west-commands
       import: true
@@ -55,5 +57,8 @@ manifest:
     - name: zmk-tom-oled
       remote: pukuhei
       revision: da64fba438d6a4284bb8a1d09bbd5f1fa872b0a0
+    - name: zmk-layout-shift
+      remote: kot149
+      revision: v2
   self:
     path: config
