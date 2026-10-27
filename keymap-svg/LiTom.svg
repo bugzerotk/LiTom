@@ -1376,9 +1376,9 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
 <text class="tap" x="42" y="42">NONE</text>
 </g>
-<g class="key keypos-13 none" transform="translate(1038 148) rotate(0 -1008 -84)">
+<g class="key keypos-13 " transform="translate(1038 148) rotate(0 -1008 -84)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">NONE</text>
+<text class="tap" x="42" y="42">tog_ls_on</text>
 </g>
 <g class="key keypos-14 none" transform="translate(30 232) rotate(0 0 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
@@ -1424,9 +1424,9 @@ svg.physical-layout { font-family: ui-monospace, SFMono-Regular, Consolas, monos
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
 <text class="tap" x="42" y="42">NONE</text>
 </g>
-<g class="key keypos-25 none" transform="translate(1038 232) rotate(0 -1008 -168)">
+<g class="key keypos-25 " transform="translate(1038 232) rotate(0 -1008 -168)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
-<text class="tap" x="42" y="42">NONE</text>
+<text class="tap" x="42" y="42">tog_ls_off</text>
 </g>
 <g class="key keypos-26 none" transform="translate(30 316) rotate(0 0 -252)">
 <rect x="0" y="0" width="84" height="84" rx="6" ry="6"/>
